@@ -61,7 +61,7 @@ img {
 .categoryname {
   display: flex;
 }
-.categoryname2{
+.categoryname2 {
   margin: auto;
 }
 .searchbar {
@@ -75,8 +75,8 @@ input {
   width: 100%;
   border-left: 1.8px solid rgb(231, 231, 233);
   border-right: none;
-  border-top:  1.8px solid rgb(231, 231, 233);
-  border-bottom:  1.8px solid rgb(231, 231, 233);
+  border-top: 1.8px solid rgb(231, 231, 233);
+  border-bottom: 1.8px solid rgb(231, 231, 233);
   border-radius: 3px 0 0 3px;
 }
 button {
@@ -142,7 +142,7 @@ h2 {
     font-size: 20px;
   }
   .categoryname1,
-  .categoryname2{
+  .categoryname2 {
     font-size: 19px;
   }
   .biglorem {
@@ -160,7 +160,6 @@ h2 {
   .sidewidgetwell {
     padding: 33px 0 34px 1.5vw;
   }
-  
 }
 @media only screen and (min-width: 1405px) and (max-width: 1800px) {
   .layout {
@@ -184,7 +183,7 @@ h2 {
     font-size: 16px;
   }
   .categoryname1,
-  .categoryname2{
+  .categoryname2 {
     font-size: 15px;
   }
   .biglorem {
@@ -225,7 +224,7 @@ h2 {
     font-size: 14px;
   }
   .categoryname1,
-  .categoryname2{
+  .categoryname2 {
     font-size: 13px;
   }
   .biglorem {
@@ -243,8 +242,11 @@ h2 {
   .sidewidgetwell {
     padding: 29px 0 30px 1.5vw;
   }
+  .fa {
+    font-size: 14px;
+  }
 }
-@media only screen and (min-width: 641px) and (max-width: 1022px) {
+@media only screen and (min-width: 781px) and (max-width: 1022px) {
   .layout {
     font-size: 16px;
   }
@@ -257,28 +259,30 @@ h2 {
   }
   .bytest {
     font-weight: 400;
-    font-size: 13px;
+    font-size: 15px;
   }
   .postdate,
   .loremsection1,
-  .categoryname1,
-  .categoryname2,
   .loremsection2,
   .copyright {
-    font-size: 9px;
+    font-size: 13px;
+  }
+  .categoryname1,
+  .categoryname2 {
+    font-size: 11px;
   }
   .biglorem {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
   }
   h2 {
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 500;
   }
   .categoryname2 {
     margin: auto;
   }
-  button{
+  button {
     padding: 4px 8px;
   }
   .blogsearch {
@@ -288,8 +292,11 @@ h2 {
   .sidewidgetwell {
     padding: 15px 0 16px 1.5vw;
   }
+  .fa {
+    font-size: 12px;
+  }
 }
-@media only screen and (min-width: 427px) and (max-width: 641px) {
+@media only screen and (min-width: 531px) and (max-width: 780px) {
   .layout {
     font-size: 14px;
   }
@@ -305,25 +312,27 @@ h2 {
   }
   .bytest {
     font-weight: 400;
-    font-size: 10px;
+    font-size: 12px;
   }
   .postdate,
   .loremsection1,
-  .categoryname1,
-  .categoryname2,
   .loremsection2,
   .copyright {
-    font-size: 6px;
+    font-size: 10px;
+  }
+  .categoryname1,
+  .categoryname2 {
+    font-size: 8px;
   }
   .biglorem {
-    font-size: 9px;
+    font-size: 13px;
     font-weight: 500;
   }
   h2 {
-    font-size: 8px;
+    font-size: 11px;
     font-weight: 500;
   }
-  button{
+  button {
     padding: 3px 8px;
   }
   .blogsearch {
@@ -333,15 +342,21 @@ h2 {
   .sidewidgetwell {
     padding: 10px 0 9px 1.5vw;
   }
-  .copyright{
+  .copyright {
     padding-top: 25px;
     padding-bottom: 25px;
   }
-  .hr3{
+  .hr3 {
     margin-top: 20px;
   }
+  .fa {
+    font-size: 10px;
+  }
+  .button {
+    padding: 2px 8px;
+  }
 }
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 530px) {
   .layout {
     font-size: 15px;
   }
@@ -382,23 +397,24 @@ h2 {
     font-size: 14px;
     font-weight: 500;
   }
-  .sections{
+  .sections {
     display: block;
   }
-  .section1,.section2{
+  .section1,
+  .section2 {
     width: 100%;
   }
-  .blogsearch{
-  margin-top: 20px;
+  .blogsearch {
+    margin-top: 20px;
   }
-  .copyright{
+  .copyright {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  .hr3{
+  .hr3 {
     margin-top: 10px;
   }
-  .hr1{
+  .hr1 {
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -408,5 +424,8 @@ h2 {
   .blogcategories,
   .sidewidgetwell {
     padding: 10px 0 9px 1.5vw;
+  }
+  .fa {
+    font-size: 10px;
   }
 }
