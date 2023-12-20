@@ -82,7 +82,8 @@ input {
 button {
   border: 1.8px solid rgb(231, 231, 233);
   background-color: white;
-  padding: 5px 8px;
+  padding-left: 8px;
+  padding-right: 8px;
   border-radius: 0 3px 3px 0;
 }
 .hr1 {
@@ -118,6 +119,11 @@ h2 {
 .loremsection2,
 .copyright {
   opacity: 0.8;
+}
+.loremsectionA,
+.loremsectionB,
+.loremsectionC {
+  margin-bottom: 12px;
 }
 
 @media only screen and (min-width: 1801px) and (max-width: 2560px) {
@@ -156,9 +162,14 @@ h2 {
   .blogsearch {
     padding: 33px 1.5vw 22px 1.5vw;
   }
-  .blogcategories,
-  .sidewidgetwell {
+  .blogcategories {
     padding: 33px 0 34px 1.5vw;
+  }
+  .sidewidgetwell {
+    padding: 33px 1.5vw 34px 1.5vw;
+  }
+  button {
+    padding: 12px 15px 12px 15px;
   }
 }
 @media only screen and (min-width: 1405px) and (max-width: 1800px) {
@@ -195,11 +206,16 @@ h2 {
     font-weight: 500;
   }
   .blogsearch {
-    padding: 31px 1.5vw 20px 1.5vw;
+    padding: 25px 1.5vw 12px 1.5vw;
   }
-  .blogcategories,
+  .blogcategories {
+    padding: 25px 0 26px 1.5vw;
+  }
   .sidewidgetwell {
-    padding: 31px 0 32px 1.5vw;
+    padding: 25px 1.5vw 26px 1.5vw;
+  }
+  button {
+    padding: 8px 10px 8px 10px;
   }
 }
 @media only screen and (min-width: 1023px) and (max-width: 1404px) {
@@ -236,14 +252,20 @@ h2 {
     font-weight: 500;
   }
   .blogsearch {
-    padding: 29px 1.5vw 18px 1.5vw;
+    padding: 21px 1.5vw 11px 1.5vw;
   }
-  .blogcategories,
+  .blogcategories {
+    padding: 21px 0 22px 1.5vw;
+  }
   .sidewidgetwell {
-    padding: 29px 0 30px 1.5vw;
+    padding: 21px 1.5vw 22px 1.5vw;
   }
-  .fa {
+  .clockicon {
     font-size: 14px;
+  }
+  button {
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 @media only screen and (min-width: 781px) and (max-width: 1022px) {
@@ -282,18 +304,21 @@ h2 {
   .categoryname2 {
     margin: auto;
   }
-  button {
-    padding: 4px 8px;
-  }
   .blogsearch {
     padding: 15px 1.5vw 12px 1.5vw;
   }
-  .blogcategories,
-  .sidewidgetwell {
+  .blogcategories {
     padding: 15px 0 16px 1.5vw;
   }
-  .fa {
+  .sidewidgetwell {
+    padding: 15px 1.5vw 16px 1.5vw;
+  }
+  .clockicon {
     font-size: 12px;
+  }
+  button {
+    padding-top: 4px;
+    padding-bottom: 4px;
   }
 }
 @media only screen and (min-width: 531px) and (max-width: 780px) {
@@ -332,15 +357,15 @@ h2 {
     font-size: 11px;
     font-weight: 500;
   }
-  button {
-    padding: 3px 8px;
-  }
   .blogsearch {
     padding: 10px 1.5vw 7px 1.5vw;
   }
   .blogcategories,
   .sidewidgetwell {
     padding: 10px 0 9px 1.5vw;
+  }
+  .sidewidgetwell {
+    padding: 10px 1.5vw 9px 1.5vw;
   }
   .copyright {
     padding-top: 25px;
@@ -349,11 +374,12 @@ h2 {
   .hr3 {
     margin-top: 20px;
   }
-  .fa {
+  .clockicon {
     font-size: 10px;
   }
-  .button {
-    padding: 2px 8px;
+  button {
+    padding-top: 3px;
+    padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 530px) {
@@ -425,7 +451,14 @@ h2 {
   .sidewidgetwell {
     padding: 10px 0 9px 1.5vw;
   }
-  .fa {
+  .sidewidgetwell {
+    padding: 10px 1.5vw 9px 1.5vw;
+  }
+  .clockicon {
     font-size: 10px;
+  }
+  button {
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
