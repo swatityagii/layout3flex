@@ -45,19 +45,22 @@ img {
 .section2 {
   width: 30%;
 }
-.blogsearch,
+.blogsearch {
+  border: 1.8px solid rgb(231, 231, 233);
+  padding: 21px 2vw 18px 2vw;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+}
 .blogcategories,
 .sidewidgetwell {
   border: 1.8px solid rgb(231, 231, 233);
-  padding: 15px 2vw;
+  padding: 21px 2vw 22px 2vw;
   background-color: #f5f5f5;
   border-radius: 3px;
 }
 .categoryname {
   display: flex;
-}
-.categoryname2 {
-  margin-left: auto;
+  justify-content: space-between;
 }
 .searchbar {
   display: flex;
@@ -68,7 +71,10 @@ img {
 }
 input {
   width: 100%;
-  border: 1.8px solid rgb(231, 231, 233);
+  border-left: 1.8px solid rgb(231, 231, 233);
+  border-right: none;
+  border-top:  1.8px solid rgb(231, 231, 233);
+  border-bottom:  1.8px solid rgb(231, 231, 233);
   border-radius: 3px 0 0 3px;
 }
 button {
@@ -121,7 +127,7 @@ h2 {
   }
   .heading {
     font-weight: 500;
-    font-size: 50px;
+    font-size: 53px;
   }
   .bytest {
     font-weight: 500;
@@ -154,7 +160,7 @@ h2 {
   }
   .heading {
     font-weight: 500;
-    font-size: 35px;
+    font-size: 38px;
   }
   .bytest {
     font-weight: 400;
@@ -186,11 +192,11 @@ h2 {
   }
   .heading {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 33px;
   }
   .bytest {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 19px;
   }
   .postdate,
   .loremsection1,
@@ -198,14 +204,14 @@ h2 {
   .categoryname2,
   .loremsection2,
   .copyright {
-    font-size: 13px;
+    font-size: 14px;
   }
   .biglorem {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
   }
   h2 {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
   }
 }
@@ -218,7 +224,7 @@ h2 {
   }
   .heading {
     font-weight: 500;
-    font-size: 25px;
+    font-size: 28px;
   }
   .bytest {
     font-weight: 400;
@@ -259,7 +265,7 @@ h2 {
   }
   .heading {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 25px;
   }
   .bytest {
     font-weight: 400;
@@ -307,7 +313,7 @@ h2 {
   }
   .heading {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 25px;
   }
   .bytest {
     font-weight: 400;
